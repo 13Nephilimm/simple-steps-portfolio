@@ -57,6 +57,7 @@ class PercentageObserver extends HeaderObserver {
 const headerAnim = new HeaderObserver(hero, { root: null, threshold: 0.5, rootMargin: "90px" });
 const counterDownAnim = new PercentageObserver(percentageBOX, { root: null, threshold: 0.4 });
 // #######################################################################################
+// main carousel
 class Carousel {
   #currSLD = 0;
   constructor() {
