@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+::selection {
+  background: #1745a280;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  overflow-x: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* BUTTONS/LINKS */
+.main-btn:link,
+.main-btn:visited {
+  text-decoration: none;
+  background-color: #fff;
+  font-size: 2.6rem;
+  color: #1746a2;
+  padding: 1.2rem 2.8rem;
+  border-radius: 4rem;
+  border: 2px solid #fff;
+  transition: all 0.4s;
+}
+.main-btn:hover,
+.main-btn:active {
+  background-color: #1746a2;
+  color: #fff;
+}
+.main-btn.reversed {
+  background-color: #1746a2;
+  color: #fff;
+}
+.main-btn.reversed:hover {
+  background-color: #fff;
+  color: #1746a2;
+}
+/* GRID DISPLAY */
+.grid--2cls-2rws {
+  display: grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+/* HEADINGS/PARAGRAPHS */
+
+.heading-main {
+  font-size: 8rem;
+  color: #fff;
+}
+.heading-secondary {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #1746a2;
+}
+.heading-tertiary {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #fff;
+}
+.paragraph {
+  margin-top: 3rem;
+  color: #eee;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+/* FIXERS */
+.center-text {
+  text-align: center;
+}
+.heading-main.center-text.black {
+  color: #303133;
+}
+.paragraph.black {
+  color: #373737;
+}
+.heading-secondary.center-text.bold {
+  font-weight: 800;
+  margin-bottom: 4.5rem;
+}
+.heading-tertiary.small {
+  font-size: 3rem;
+}
+.paragraph.center-text.small {
+  font-size: 1.5rem;
+  color: #a2b5da;
+}
+.btn-reverse:link,
+.btn-reverse:visited {
+  background-color: #1746a2;
+  font-size: 2.6rem;
+  border: 2px solid #1746a2;
+  color: #fff;
+}
+.btn-reverse:hover,
+.btn-reverse:active {
+  background-color: #fff;
+  color: #1746a2;
+}
+.btn-border--blue:link,
+.btn-border--blue:visited {
+  border: 2px solid #1746a2;
+}
+/* container */
+.secondary-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+/*  */
