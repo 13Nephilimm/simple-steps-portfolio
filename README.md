@@ -1,6 +1,6 @@
 # Aimy Website
 
-Date Finished 11/24/2022 - Слава Украине!
+Date Finished 24/11/2022 - Слава Україні!
 
 Created by - Luka Tsinaridze, Languages used - Vanilla Javascript, HTML, CSS
 
