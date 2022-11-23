@@ -1,9 +1,7 @@
-# Radioactive-Project
+# Aimy Website
 
-My big project after quite some time :)) Website made for my favourite music band IMAGINE DRAGONS
-
-Date Finished 10/4/2022 - Слава Украине!
+Date Finished 11/24/2022 - Слава Украине!
 
 Created by - Luka Tsinaridze, Languages used - Vanilla Javascript, HTML, CSS
 
-LINK: https://radioactive-web.netlify.app/
+LINK: https://aimy-website.netlify.app/
