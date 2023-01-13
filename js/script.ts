@@ -50,12 +50,9 @@ class PercentageObserver extends HeaderObserver {
         }, 30);
       }
       this.#done = true;
-      console.log(this.toObserve);
     }
   }
 }
-console.log(typeof null);
-// console.log(`23`);
 const headerAnim = new HeaderObserver(hero, { root: null, threshold: 0.5, rootMargin: "90px" });
 const counterDownAnim = new PercentageObserver(percentageBOX, { root: null, threshold: 0.4 });
 // #######################################################################################
