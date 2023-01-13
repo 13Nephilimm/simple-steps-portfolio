@@ -73,7 +73,7 @@ class Carousel {
   _changeSLD(currSLD: number) {
     allSlides.forEach((el, i) => (el.style.transform = `translateX(${(i - currSLD) * 100}%)`));
   }
-  _carouselMain(e) {
+  _carouselMain(e: any) {
     const target = e.target.closest(`.carousel-btn`);
     if (!target) return;
     if (target.dataset.side === `r`) {
@@ -91,7 +91,7 @@ class Carousel {
       allLines[this.#currSLD].classList.add(`btm-show`);
     }
   }
-  _lineMain(e) {
+  _lineMain(e: any) {
     const target = e.target.closest(`p`).lastChild;
     if (!target) return;
     this._changeSLD(target.dataset.line);
