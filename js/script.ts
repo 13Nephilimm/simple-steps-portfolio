@@ -19,7 +19,7 @@ class HeaderObserver {
   constructor(protected toObserve: HTMLDivElement, protected obsOption: observerOPS) {
     this._getObserver();
   }
-  _itemPos(e: any) {
+  _itemPos(e: IntersectionObserverEntry[]) {
     const [event] = e;
     !event.isIntersecting ? header.classList.add(`fixed`) : header.classList.remove(`fixed`);
   }
@@ -35,7 +35,7 @@ class PercentageObserver extends HeaderObserver {
   constructor(protected toObserve: HTMLDivElement, protected obsOption: observerOPS) {
     super(toObserve, obsOption);
   }
-  _itemPos(e: any) {
+  _itemPos(e: IntersectionObserverEntry[]) {
     const [event] = e;
     if (event.isIntersecting) {
       if (this.#done === false) {

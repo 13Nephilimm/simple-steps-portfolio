@@ -2,7 +2,6 @@
   "name": "aimy-website",
   "version": "1.0.0",
   "description": "Date Finished 24/11/2022 - Слава Україні!",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
